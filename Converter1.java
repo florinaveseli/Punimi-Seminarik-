@@ -41,8 +41,8 @@ public class Converter1 extends JPanel {
    int money1 = (int)money;
  
    int amount1 = (int)amount;
-   int width2 = money1;
-   int width1 = amount1 ;
+   int width2 = money1*5;
+   int width1 = amount1*5 ;
    g.setColor(Color.red);
    g.fillOval(xpos,ypos,width1,width1);
    g.fillOval(xpos+350,ypos,width2,width2);
